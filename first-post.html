@@ -25,8 +25,6 @@
             <!-- menu items-->
             <li><a class="nodec" href="http://localhost:8000">Home</a>
             <!--pages-->
-                <li><a class="nodec" href="http://localhost:8000/pages/about-me.html">About Me</a></li>
-                <li><a class="nodec" href="http://localhost:8000/pages/projects.html">Projects</a></li>
             <!-- services icons -->
               <li><a class="nodec icon-email" href="mailto:jcgerm@gmail.com" target="_blank"></a></li>
               <li><a class="nodec icon-github" href="http://github.com/jcgerm" target="_blank"></a></li>
@@ -41,52 +39,47 @@
 
 <section class="content">
 
-  <ol id="postlist">
+  <h3 class="posttitle">
+    <a class="nodec" href="/first-post.html" rel="bookmark" title="Permalink to First Post">
+      First Post
+    </a>
+  </h3>
 
-    <li style="list-style-type: none;" class="post">
-        <header class="posttitle">
-          <h3><a href="http://localhost:8000/first-youtube-post.html"
-                  rel="bookmark"
-                  class="nodec"
-                  title="Permalink to First YouTube Post">First YouTube Post</a>
-          </h3>
-        </header>
+  <div class="postinfo">
+    <p class="published" title="2010-12-03T10:20:00+01:00">
+      Fri 03 December 2010
+    </p>
 
-        <div class="postinfo">
-          <p class="published" title="2015-05-07T12:04:00+02:00"> Thu 07 May 2015 </p>
-        </div><!-- /.postinfo -->
+  </div><!-- .postinfo -->
 
-        <div class="postsummary"> <p><div class="videobox">
-                <iframe width="640" height="390"
-                    src='https://www.youtube.com/embed/cOwsttzkUgs'
-                    frameborder='0' webkitAllowFullScreen mozallowfullscreen
-                    allowFullScreen>
-                </iframe>
-            </div></p> </div>
-    </li>
-    <li style="list-style-type: none;" class="post">
-        <header class="posttitle">
-          <h3><a href="http://localhost:8000/trying-this-again.html"
-                  rel="bookmark"
-                  class="nodec"
-                  title="Permalink to Trying This Again">Trying This Again</a>
-          </h3>
-        </header>
-
-        <div class="postinfo">
-          <p class="published" title="2015-05-03T09:50:00+02:00"> Sun 03 May 2015 </p>
-        </div><!-- /.postinfo -->
-
-        <div class="postsummary"> <p>Hello World!</p> </div>
-    </li>
-
-  </ol><!-- /#post-list -->
-
-<p class="paginator">
-    Page 1 / 1
-</p>
-
-</section><!-- /#content -->
+  <div class="article">
+    <p>Following is a review of my favorite mechanical keyboard.</p>
+  </div><!-- .content -->
+    <div class="blogItem">
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'jcgerm';
+        (function() {
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] ||
+             document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>
+        Please enable JavaScript to view the
+        <a href="http://disqus.com/?ref_noscript=jcgerm">
+            comments powered by Disqus.
+        </a>
+    </noscript>
+    <a href="http://disqus.com" class="dsq-brlink">
+        blog comments powered by <span class="logo-disqus">Disqus</span>
+    </a>
+    </div>
+</section>
 
 
     <!-- footer -->
@@ -98,5 +91,15 @@
         <a href="http://github.com/porterjamesj/crowsfoot">crowsfoot</a> theme.
       </p>
     </footer>
+    <script type="text/javascript">
+        var disqus_shortname = 'jcgerm';
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] ||
+             document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
   </body>
 </html>
