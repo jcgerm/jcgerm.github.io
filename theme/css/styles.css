@@ -14,7 +14,7 @@ html { /* This stuff is for the sticky footer. */
     font-size: 18px;
     -webkit-font-smoothing: antialiased;
     background: #fafafa
-    url(/images/poly.png) no-repeat center top;
+    url(/images/header.jpg) no-repeat center top;
 }
 
 body {
@@ -27,7 +27,8 @@ body {
 .sitebanner {
     position: relative;
     font-size: 18;
-    top: 15px;
+    top: 35px;
+    color: white;
 }
 
 .siteheader {
@@ -48,10 +49,11 @@ body {
     padding-left: 10px; /* Hack to dodge :hover issue. */
     position: relative; /* Hack to dodge :hover issue. */
     left: -10px; /* Hack to dodge :hover issue. */
+    color: white;
 }
 
 .sitesubtitle {
-    color: #000;
+    color: white;
     font-size: 1em;
     margin-bottom: 30px;
     margin-top: 20px;
@@ -68,6 +70,7 @@ body {
 .menu li {
     display: inline;
     margin-right: 10px;
+    color: white;
 }
 
 .menu li.active a { 
@@ -84,6 +87,7 @@ body {
     padding-left: 10px; /* Hack to dodge :hover issue. */
     position: relative; /* Hack to dodge :hover issue. */
     left: -10px; /* Hack to dodge :hover issue. */
+    color: black;
 }
 
 .postinfo {
@@ -100,12 +104,13 @@ body {
 
 .post {
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 /* Links. */
 
 a { /* Generic link styling, greyish and underlined. */
-    color: #2E2E2E;
+    color: black;
     text-decoration: underline;
     -o-transition:color .2s ease-in-out;
     -webkit-transition:color .2s ease-in-out;
@@ -116,6 +121,7 @@ a { /* Generic link styling, greyish and underlined. */
 .nodec {
     /* Links that aren't just in content areas shouldn't be underlined */
     text-decoration: none;
+    color: white;
 }
 
 a:hover { /* Hover style: transition to orange. Cool! */

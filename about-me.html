@@ -6,8 +6,8 @@
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css' />
       <link href='http://fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css'/>
       <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,400,700' rel='stylesheet' type='text/css'/>
-      <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/css/zocial.css"/>
-      <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/css/styles.css"/>
+      <link rel="stylesheet" type="text/css" href="http://jcgerm.github.io/theme/css/zocial.css"/>
+      <link rel="stylesheet" type="text/css" href="http://jcgerm.github.io/theme/css/styles.css"/>
       <meta charset="utf-8" />
   </head>
 
@@ -17,15 +17,14 @@
       <!-- site image -->
 
       <div class = "sitebanner">
-        <h1><a class="sitetitle nodec" href="http://localhost:8000">Music</a></h1>
+        <h1><a class="sitetitle nodec" href="http://jcgerm.github.io">Music</a></h1>
         <h3 class ="sitesubtitle">A musical journey</h3>
         <!-- nav -->
         <nav class="menu">
           <ul>
             <!-- menu items-->
-            <li><a class="nodec" href="http://localhost:8000">Home</a>
+            <li><a class="nodec" href="http://jcgerm.github.io">Home</a>
             <!--pages-->
-                <li><a class="nodec" href="http://localhost:8000/pages/about-me.html">About Me</a></li>
             <!-- services icons -->
               <li><a class="nodec icon-email" href="mailto:jcgerm@gmail.com" target="_blank"></a></li>
               <li><a class="nodec icon-github" href="http://github.com/jcgerm" target="_blank"></a></li>
@@ -40,46 +39,47 @@
 
 <section class="content">
 
-  <ol id="postlist">
+  <h3 class="posttitle">
+    <a class="nodec" href="/about-me.html" rel="bookmark" title="Permalink to About Me">
+      About Me
+    </a>
+  </h3>
 
-    <li style="list-style-type: none;" class="post">
-        <header class="posttitle">
-          <h3><a href="http://localhost:8000/posts/one-more-time.html"
-                  rel="bookmark"
-                  class="nodec"
-                  title="Permalink to One More Time">One More Time</a>
-          </h3>
-        </header>
+  <div class="postinfo">
+    <p class="published" title="2015-05-10T16:42:00+02:00">
+      Sun 10 May 2015
+    </p>
 
-        <div class="postinfo">
-          <p class="published" title="2015-05-10T16:44:00+02:00"> Sun 10 May 2015 </p>
-        </div><!-- /.postinfo -->
+  </div><!-- .postinfo -->
 
-        <div class="postsummary"> <p>Hello World!</p> </div>
-    </li>
-    <li style="list-style-type: none;" class="post">
-        <header class="posttitle">
-          <h3><a href="http://localhost:8000/posts/first-post.html"
-                  rel="bookmark"
-                  class="nodec"
-                  title="Permalink to First Post">First Post</a>
-          </h3>
-        </header>
-
-        <div class="postinfo">
-          <p class="published" title="2015-05-10T16:42:00+02:00"> Sun 10 May 2015 </p>
-        </div><!-- /.postinfo -->
-
-        <div class="postsummary"> <p>Hello World!</p> </div>
-    </li>
-
-  </ol><!-- /#post-list -->
-
-<p class="paginator">
-    Page 1 / 1
-</p>
-
-</section><!-- /#content -->
+  <div class="article">
+    <p>It's me!</p>
+  </div><!-- .content -->
+    <div class="blogItem">
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'jcgerm';
+        (function() {
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] ||
+             document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>
+        Please enable JavaScript to view the
+        <a href="http://disqus.com/?ref_noscript=jcgerm">
+            comments powered by Disqus.
+        </a>
+    </noscript>
+    <a href="http://disqus.com" class="dsq-brlink">
+        blog comments powered by <span class="logo-disqus">Disqus</span>
+    </a>
+    </div>
+</section>
 
 
     <!-- footer -->
