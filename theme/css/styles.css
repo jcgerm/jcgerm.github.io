@@ -1,5 +1,5 @@
 @import url(pygments.css);
-@import url(http://reset5.googlecode.com/hg/reset.min.css);
+@import url(http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css);
 
 /* General stuff. */
 
@@ -14,7 +14,7 @@ html { /* This stuff is for the sticky footer. */
     font-size: 18px;
     -webkit-font-smoothing: antialiased;
     background: #fafafa
-    url(/images/header.jpg) no-repeat center top;
+    url(/images/header.png) no-repeat center top;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
 .sitebanner {
     position: relative;
     font-size: 18;
-    top: 35px;
+    top: 15px;
     color: white;
 }
 
@@ -55,9 +55,9 @@ body {
 .sitesubtitle {
     color: white;
     font-size: 1em;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 20px;
-    /* padding-left: 30px; */
+    font-weight: bold;
 }
 
 /* The navbar. */
@@ -81,6 +81,7 @@ body {
 
 .posttitle {
     font-size: 1.6em;
+    font-weight: bolder;
 }
 
 .posttitle a {
@@ -88,6 +89,7 @@ body {
     position: relative; /* Hack to dodge :hover issue. */
     left: -10px; /* Hack to dodge :hover issue. */
     color: black;
+    font-weight: bolder;
 }
 
 .postinfo {
@@ -129,14 +131,13 @@ a:hover { /* Hover style: transition to orange. Cool! */
     -webkit-transition:color .2s ease-in-out;
     -moz-transition:color .2s ease-in-out;
     transition:color .2s ease-in-out;
-    color: orange;
+    color: #FF9933;
 }
 
 /* Generic to all content. */
 
 .content ol, .content ul {
     position: relative;
-    left: 40px;
     padding-bottom: 20px;
 }
 
@@ -183,6 +184,7 @@ sub {
 .article h1 {
     padding-bottom: 1em;
     font-size: 1.4em;
+    font-weight: bold;
 }
 
 .article h2 {
